@@ -1,10 +1,12 @@
 package up.edu.com.br.cservicos.model;
 
+import java.io.Serializable;
+
 /**
  * Created by josle on 19/06/2017.
  */
 
-public class Cliente {
+public class Cliente implements Serializable {
 
     private String nomeCliente;
     private String rgCliente;
